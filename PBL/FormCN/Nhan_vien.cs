@@ -2,26 +2,22 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PBL
+namespace PBL.FormCN
 {
-    public partial class AccProfile : Form
+    public partial class Nhan_vien : Form
     {
-        public AccProfile()
+        public Nhan_vien()
         {
             InitializeComponent();
+            this.Text = "Nhân viên";
         }
 
-        private void butExitProfile_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        
     }
 }
